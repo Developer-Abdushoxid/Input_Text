@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:2rem;
+  background-color: teal;
+}
+
+.create-info {
+  width: 500px;
+  height: 15vh;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.create-info label {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.create-info label input {
+  flex: 1;
+  height: 35px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  border: 1px solid aqua;
+  font-size: 16px;
+  border-right: none;
+  outline: none;
+}
+
+.create-info label button {
+  width: 100px;
+  height: 35px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+  border: 2px solid aqua;
+  font-size: 16px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.todo-list {
+  min-height: 30vh;
+  min-width: 500px;
+  background-color: rgba(0,0,0,0.05);
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+  padding: 20px;
+}
+
+.todo-item {
+  width: 500px;
+  height: 5vh;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
